@@ -477,6 +477,10 @@ $$
 
 其中 $\text{Swish}(x) = x \cdot \sigma(\beta x)$ ，其形状与高斯误差单元相似，通常$\beta=1$，$\sigma(x) = \frac{1}{1 + e^{-x}}$。
 
+
+<img width="1300" height="854" alt="image" src="https://github.com/user-attachments/assets/60f2aa7b-1d18-4556-9cf0-18ad1cebca75" />
+
+
 他的**优势**在于，相比GeGLU**性能进一步提升**，但是**代价**是计算成本最高。
 
 SwiGLU基本上是当今大多数模型采用的结构。比如LLaMA系列、PaLM、OlMo等等。
